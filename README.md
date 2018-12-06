@@ -4,8 +4,13 @@ Blight violations are issued by Detroit to individuals who allow their propertie
 
 Two data files retrieved from the Detroit Open Data Portal are used for training and validating the models. Each row in the two files corresponds to a single blight ticket, and includes information about when, why, and to whom each ticket was issued. The target variable is compliance, which is True if the ticket was paid early, on time, or within one month of the hearing data, False if the ticket was paid after the hearing date or not at all, and Null if the violator was found not responsible. 
 
-File descriptions:
+### File descriptions
 train.csv - the training set (all tickets issued 2004-2011)
 test.csv - the test set (all tickets issued 2012-2016)
 addresses.csv & latlons.csv - mapping from ticket id to addresses, and from addresses to lat/lon coordinates. 
+
+### Data Fields
+Includes ticket id, agency name, inspector and violator name, addresses, violatoin and hearing dates, disposition, fine and total judement amounts, late fees.
+
+Compliance: 0 = non-compliant (did not pay the fine), 1 = compliant (paid the fine)
 
