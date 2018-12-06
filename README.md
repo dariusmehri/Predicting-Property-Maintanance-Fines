@@ -14,3 +14,5 @@ Includes ticket id, agency name, inspector and violator name, addresses, violato
 
 Compliance: 0 = non-compliant (did not pay the fine), 1 = compliant (paid the fine)
 
+### Evaluation
+A number of models were 
