@@ -17,7 +17,7 @@ Includes ticket id, agency name, inspector and violator name, addresses, violato
 Compliance: 0 = non-compliant (did not pay the fine), 1 = compliant (paid the fine)
 
 ### Evaluation
-A number of models were tested to choose which model would produce the highest accuracy. The models include logistic regression, random forests, gradient boosted decision trees, K-nearest neighbors, Naïve Bayes and support vector machines. The predictions are given as the probability that the corresponding blight ticket will be paid on time. The evaluation metric is the Area Under the ROC Curve (AUC).
+A number of models were tested to choose which model would produce the highest accuracy. The models include logistic regression, random forests, gradient boosted decision trees, K-nearest neighbors, Naïve Bayes and support vector machines. Model parameters were optimized for each model to produce most accurate results.  The predictions are given as the probability that the corresponding blight ticket will be paid on time. The evaluation metric is the Area Under the ROC Curve (AUC).
 
 ### Results
 
