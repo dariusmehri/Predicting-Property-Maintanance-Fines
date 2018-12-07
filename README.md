@@ -23,3 +23,4 @@ A number of models were tested to choose which model would produce the highest a
 
 The gradient boosted decision trees produced the best results with an AUC of 0.78:
 
+![blight_results](https://user-images.githubusercontent.com/11237613/49665969-888af000-fa4e-11e8-971d-ceb62d746a22.PNG)
