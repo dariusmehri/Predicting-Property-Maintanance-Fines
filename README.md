@@ -6,7 +6,9 @@ Two data files retrieved from the Detroit Open Data Portal are used for training
 
 ### File descriptions
 train.csv - the training set (all tickets issued 2004-2011)
+
 test.csv - the test set (all tickets issued 2012-2016)
+
 addresses.csv & latlons.csv - mapping from ticket id to addresses, and from addresses to lat/lon coordinates. 
 
 ### Data Fields
@@ -15,4 +17,8 @@ Includes ticket id, agency name, inspector and violator name, addresses, violato
 Compliance: 0 = non-compliant (did not pay the fine), 1 = compliant (paid the fine)
 
 ### Evaluation
-A number of models were 
+To optimize accuracy, a number of models were implemented. The models include 
+
+The predictions are  given as the probability that the corresponding blight ticket will be paid on time.
+
+The evaluation metric for this assignment is the Area Under the ROC Curve (AUC).
